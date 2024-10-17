@@ -53,7 +53,7 @@ fun OnBoardingScreen(
             Spacer(modifier = Modifier.weight(1f))
             CommonText(
                 text = "Enjoy Listening To Music",
-                style = MaterialTheme.typography.titleLarge,
+                style = MaterialTheme.typography.headlineLarge,
                 fontWeight = FontWeight.Bold
             )
             CommonText(

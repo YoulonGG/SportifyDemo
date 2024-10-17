@@ -37,7 +37,6 @@ fun LoginScreen(
 
     BackPressAndBackground(
         showLogo = false,
-//        navController = rememberNavController(),
     ) {
         Column(
             modifier = Modifier.fillMaxSize().padding(horizontal = 16.dp),
@@ -56,7 +55,7 @@ fun LoginScreen(
                 text = "Enjoy Listening To Music",
                 fontWeight = FontWeight.Bold,
                 textAlign = TextAlign.Center,
-                style = MaterialTheme.typography.titleLarge,
+                style = MaterialTheme.typography.headlineLarge,
                 modifier = Modifier.padding(top = 42.dp))
             CommonText(
                 text = "Spotify is a proprietary Swedish audio streaming and media services provider",

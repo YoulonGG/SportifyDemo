@@ -48,7 +48,7 @@ fun BackPressAndBackground(
         Row(
             verticalAlignment = Alignment.CenterVertically,
             horizontalArrangement = Arrangement.SpaceBetween,
-            modifier = Modifier.fillMaxWidth().padding(horizontal = 16.dp, vertical = 16.dp)
+            modifier = Modifier.fillMaxWidth().padding(horizontal = 16.dp, vertical = 16.dp).height(40.dp)
         ) {
             Box(
                 contentAlignment = Alignment.Center,
